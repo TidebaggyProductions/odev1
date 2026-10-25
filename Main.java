@@ -13,6 +13,10 @@ void main() {
     double ort = (sonuc1+sonuc2+sonuc3);
     System.out.println(ort);
 
-
-
+if(ort>50){
+    System.out.println("Geçtin!");
+}
+else{
+    System.out.println("Kaldın!");
+}
 }
